@@ -51,5 +51,19 @@ ul{
     top: 250px;
     left: 35%;
 }
+ol{
+    color:yellowgreen;
+    border: 2px solid cyan;
+    font-size: 30px;
+    max-height: 370px;
+    max-width: 420px;
+    overflow: auto;
+    position: absolute;
+}
+
+ol{
+    top: 250px;
+    left: 35%;
+}
 
 <li>i want swag</li>
