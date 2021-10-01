@@ -1,0 +1,52 @@
+canvas{
+    border:1px solid #000000;
+    background: black;
+    display: block;
+    /* position: relative; */
+    overflow: scroll;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+}
+
+h1{
+    color:cyan;
+    font-size: 70px;
+    position: absolute;
+}
+
+h1{
+    top: 30px;
+    left: 35%;   
+}
+
+h2{
+    color:yellowgreen;
+    font-size: 30px;
+    position: absolute;
+}
+
+h2{
+    top: 200px;
+    left: 35%;   
+}
+
+ul{
+    color:yellowgreen;
+    border: 2px solid cyan;
+    font-size: 30px;
+    max-height: 370px;
+    max-width: 420px;
+    overflow: auto;
+    position: absolute;
+}
+
+ul{
+    top: 250px;
+    left: 35%;
+}
