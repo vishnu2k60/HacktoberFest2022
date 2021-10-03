@@ -11,8 +11,8 @@ var mouse={
     y:undefined
 }
 
-var maxRadius=60;
-var minRadius=25;
+var maxRadius=600;
+var minRadius=259;
 
 var colorArray=[
     'red',
