@@ -1,33 +1,44 @@
-Code by ShreyaDayma-cse
-import java.util.*;
- class binarysearch {
-     static int bsearch(int a[],int n,int s,int e){
-        if(e>=s){
-            int mid=1+(e-s)/2;
-            if(a[mid]==n)
-                return mid;
-            if(a[mid]>n)
-                return bsearch(a,n,s,mid-1);
-            return bsearch(a,n,mid+1,e);
-        }
-        return -1;
-    }
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        binarysearch ob=new binarysearch();
-        System.out.println("Enter the no. of elements:");
-        int n=sc.nextInt();
-        int a[]=new int[n];
-        System.out.println("Enter the array elements in ascending order:");
-        for(int i=0;i<n;i++){
-            a[i]=sc.nextInt();
-        }
-        System.out.println("Enter the number to be searched:");
-        int num=sc.nextInt();
-        int x=ob.bsearch(a,num,0,n-1);
-        if(x==-1)
-            System.out.println("Element not found");
-        else
-            System.out.println("Element found at "+(x+1));
-    }
+package Array;
+import java.util.Scanner;
+public class BinarySearch {
+
+	public static void main(String args[])
+	  {
+	    int i, first, last, middle, n, search, array[];
+	 
+	    Scanner in = new Scanner(System.in);
+	    System.out.println("Enter number of elements");
+	    n = in.nextInt();
+	    array = new int[n];
+	 
+	    System.out.println("Enter " + n + " integers");
+	 
+	 
+	    for (i = 0; i < n; i++)
+	      array[i] = in.nextInt();
+
+	    System.out.println("Enter value to find");
+	    search = in.nextInt();
+	 
+	    first  = 0;
+	    last   = n - 1;
+	    middle = (first + last)/2;
+	 
+	    while( first <= last )
+	    {
+	      if ( array[middle] < search )
+	        first = middle + 1;    
+	      else if ( array[middle] == search )
+	      {
+	        System.out.println(search + " found at location " + (middle + 1) + ".");
+	        break;
+	      }
+	      else
+	         last = middle - 1;
+	 
+	      middle = (first + last)/2;
+	   }
+	   if (first > last)
+	      System.out.println(search + " isn't present in the list.");
+	  }
 }
