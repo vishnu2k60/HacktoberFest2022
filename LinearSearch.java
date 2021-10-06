@@ -1,34 +1,25 @@
-import java.util.*;
-public class lsearch {
-  static void linear(int a[],int n){
-    int f=0,c=1;
-    for(int i=0;i<n;i++){
-      if(a[i]==n){
-        f=1;
-        break;
-     }
-    c++;
-   }
-   if(f==1)
-     System.out.println("Element found at "+c);
-   else
-     System.out.println("Element not found");
- }
- public static void main(String args[]){
-   Scanner sc=new Scanner(System.in);
-   System.out.println("Enter the no. of elements:");
-   int n=sc.nextInt();
-   int a[]=new int[n];
-   System.out.println("Enter the array elements:");
-   for(int i=0;i<n;i++){
-     a[i]=sc.nextInt();
-   }
-   System.out.println("Enter the number to be searched:");
-   int num=sc.nextInt();
-   linear(a,num);
+import java.util.Scanner;
+
+class Main{
+  static int linear_search(int arr[], int n, int x) 
+  {
+    int i;
+    for (i=0; i<n; i++)
+      if (arr[i] == x)    // Check each element of the array.
+        return i;        // if found return the position
+    return -1;    // otherwise return -1
+  }
+  public static void main(String[] args)
+  {
+    int loc,x,array[]={10,11,12,13,14,25,26,37,48,29};
+
+    x=25;    // Searched Element.
+
+    loc=linear_search(array, 10, x);    // Call the search function
+
+    if(loc != -1)
+      System.out.print("Element found at location : " + loc);
+    else
+      System.out.print("Element not present in the array.");
   }
 }
-   
- 
-
-
