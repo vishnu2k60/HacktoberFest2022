@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+
+    <script>
+
+    <link href="style.css" rel="stylesheet">
+    window.addEventListener(function () {
+
+  // all your code should go in here
+
+});
+</script>
+
+  </head>
+
+  <body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div id='board'>
+
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+
+           It prevents the div from collapsing. -->
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+      <div class='box'>&nbsp;</div>
+
+    </div>
+
+  </body>
+
+</html>
