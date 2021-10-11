@@ -1,0 +1,140 @@
+body{
+    background-color:antiquewhite
+}
+.bgimg{
+    width: 1100px;
+    height: 550px;
+    position:absolute;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background.jpg);
+    background-size: 1200px;
+    
+    margin: 20px 117px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    
+}
+.container{
+     width: 330px;
+    height: 450px;
+    background-color: white;
+    top:38px;
+    left: 270px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow:6px 6px 10px 0px rgb(255 0 0 / 20%), -6px -6px 10px 0px rgb(255 0 0 / 19%)
+
+}
+#result{
+    height: 100px;
+    text-align: right;
+}
+#history-value{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    color: grey;
+
+}
+#output-value{
+    margin: 0;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#keyboard{
+    
+    height: 350px;
+}
+.operator, .number, .empty{
+    margin-left:24px ;
+        margin-right:0;
+        margin-top:15px;
+        margin-bottom:0px;
+    
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    border-width: 0;
+}
+.number,.empty{
+    background-color: white;
+}
+.number , .operator{
+    cursor: pointer;
+    pointer-events: auto;
+}
+.number:hover , .operator:hover{
+    font-size:15px;
+    font-weight: bold;
+}
+.number:active , .operator:active{
+    font-size:25px;
+    font-weight: bold;
+}
+button:nth-child(4){
+    font-size: 22px;
+    background-color: mistyrose;
+}
+button:nth-child(8){
+    font-size: 22px;
+    background-color: lightblue;
+}
+button:nth-child(12){
+    font-size: 22px;
+    background-color: lightsalmon;
+}
+button:nth-child(16){
+    font-size: 22px;
+    background-color: greenyellow;
+}
+button:nth-child(20){
+    font-size: 22px;
+    background-color: plum;
+}
+
+
+/*********************************************************/
+@media screen and (max-width: 400px){
+    html{
+        width: 350px;
+        height: auto;
+    }
+   .bgimg{
+    width: 320px;
+
+    margin: 15px;
+    margin-top: 25px;
+    }
+    .container{
+    width: 300px;
+    top:38px;
+    left: 26px;
+}
+    .operator, .number, .empty{
+    margin-left:14px ;
+        margin-right:0;
+        margin-top:10px;
+        margin-bottom:0px;
+        outline: none;
+}
+
+}
+        /***********************************************/
+
+@media screen and (min-width: 401px) and (max-width:750px){
+    html{
+        width: auto;
+        height: auto;
+    }
+    .bgimg{
+    display: none;
+    }
+    .container{
+    margin: 35px;
+    left: 0px;
+    top:80px;
+    right: 0px;
+    bottom: 0;
+    }
+    
+}
