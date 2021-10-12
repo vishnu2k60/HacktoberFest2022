@@ -1,0 +1,216 @@
+body{
+    
+    font-family: 'Hanalei Fill', cursive;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 75%);
+    height: 100vh;
+    border: 10px;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container{
+    
+    background-color: #fff;
+    width: 700px;
+    height: 540px;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6);
+    clear: both;
+    overflow: auto;
+    
+}
+.cardtop h1{
+    font-size: 40px;
+}
+.plussymbol{
+    font-size: 40px;
+    color: #a4508b;
+    background-color:transparent;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    
+    /*top: 37%;
+    right: 28%;
+    position: absolute;*/
+    
+    vertical-align: middle;
+    margin-left: -60px;
+   
+    padding-bottom: 5px;
+    position: sticky;
+    
+}
+.userip{
+    width:90%;
+    height: 65px;
+    border-radius: 30px;
+    font-size: 27px;
+    font-weight: lighter;
+    font-family: 'Hanalei Fill', cursive;
+    background-color: #ece7e7;
+    color: #000;
+    border: none;
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+    padding-right: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    background-color: #fff;
+    
+}
+ul li{
+    text-align: left;
+    
+   
+}
+.cardtop{
+    text-align: center;
+    
+}
+.cardcont{
+    text-align: center;
+    font-size: 20px;
+}
+.cardlist{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.dustbin{
+    padding-left: 0px;
+}
+.cardelements :hover i{
+    color: #9c387e;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+.cardelements{
+    display: flex;
+    justify-content: space-between;
+}
+.cardelements a i{
+    padding-right: 100px;
+}
+.plussymbol:hover i{
+    color: #9c387e;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+.refresh:hover i{
+    color: #9c387e;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    
+}
+.refresh{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 400px){
+    body, html {
+    width:100%;
+    min-height: 100%;
+        overflow: hidden;
+    }
+    body{
+    background-color: #ff3333;
+    background-image: linear-gradient(326deg, #ff3333 0%, #990000 75%);
+    }
+    .container{
+    /*width: 350px;
+    height: 400px;*/
+    justify-content: center;
+    width: 80%;
+    height: 380px;
+        margin-top: 30%;
+    
+    }
+    .plussymbol {
+    color: #ff3333;
+    }
+    .plussymbol:hover i{
+    color: #990000;
+    }
+    .userip{
+        margin-left: 0px;
+        padding-left: 0px;
+        justify-content: center;
+    width:75%;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 17px;
+    -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    }
+    form {
+        margin: 0px;
+    }
+    .plussymbol{
+    font-size: 30px;
+    padding-bottom: 3px;
+    }
+    .cardelements a i{
+    padding-right: 30px;
+    }
+    .cardlist{
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 17px;
+    }
+    .refresh {
+    font-size: 25px;
+        color: red;
+    }
+    .refresh:hover i{
+    color: #990000;
+    }
+    #lastbutton{
+        padding-bottom: 10px;
+    }
+    .cardlist{
+    margin-top: 30px;
+    margin-left: 5%;
+    padding-left: 25px;
+    }
+
+}
+    @media screen and (min-width: 401px) and (max-width:750px){
+        body{
+            background-color: #ff3300;
+            background-image: linear-gradient(326deg, #ff3300 0%, #ffff00 75%);
+        }
+    body, html {
+    width:100%;
+    min-height: 100%;
+        
+    }
+    .container{
+    /*width: 350px;
+    height: 400px;*/
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+        margin-top: 20%;
+    
+    }
+    .userip{
+        margin-left: 0px;
+        padding-left: 0px;
+        justify-content: center;
+    width:75%;
+    height:40px;
+    border-radius: 15px;
+    font-size: 17px;
+    -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    }
+    
+}
