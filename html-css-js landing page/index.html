@@ -51,10 +51,15 @@
 				width: 15vw;
 			}
 			button {
+				background: hsla(175, 80%, 60%, 1);
+				background: linear-gradient(90deg, hsla(175, 80%, 60%, 1) 0%, hsla(153, 60%, 52%, 1) 100%);
+				background: -moz-linear-gradient(90deg, hsla(175, 80%, 60%, 1) 0%, hsla(153, 60%, 52%, 1) 100%);	
+				background: -webkit-linear-gradient(90deg, hsla(175, 80%, 60%, 1) 0%, hsla(153, 60%, 52%, 1) 100%);
+				filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#47EBDE", endColorstr="#3CCF8D", GradientType=1 );
 				padding: 10px;
-				border-radius: 7px;
+				border-radius: 10px;
 				border: none;
-				background-color: #1cb495;
+				
 				color: white;
 			}
 			button:hover {
@@ -84,6 +89,7 @@
 					width: 100%;
 				}
 				button {
+
 					margin-top: 8%;
 					width: 108%;
 				}
@@ -122,9 +128,11 @@
 		<!-- start writing your code 
         #1cb495 cyan color hash -->
 		<h1>Eventually</h1>
+		
 		<div class="subtext">
 			<p>A simple landing page created using <a href="#">HTML5</a>, <a href="#">CSS3</a> and <a href="#">JavaScript.</a></p>
 		</div>
+
 		<div class="user-input">
 			<form>
                 <label for="Email"></label>
@@ -132,7 +140,9 @@
             </form>
 			<button type="submit" onclick="func()"><b>Sign Up</b></button>	
 		</div>
+
 		<p id="demo"></p>
+
 		<footer>
 			<!-- insert icons -->
 			<a href="#" class="fa fa-twitter"></a>
