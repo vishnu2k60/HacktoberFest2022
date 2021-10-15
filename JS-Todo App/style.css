@@ -1,8 +1,8 @@
 body{
     
     font-family: 'Hanalei Fill', cursive;
-    background-color: #a4508b;
-    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 75%);
+    
+    background-image: linear-gradient(130deg, hsla(34, 100%, 50%, 1) 0%, hsla(27, 95%, 54%, 1) 0%, hsla(58, 100%, 50%, 1) 100%);
     height: 100vh;
     border: 10px;
    background-repeat: no-repeat;
@@ -11,9 +11,9 @@ body{
 }
 .container{
     
-    background-color: #fff;
+    background-color: #264653;
     width: 700px;
-    height: 540px;
+    min-height: 540px;
     margin: auto;
     padding-top: 50px;
     margin-top: 50px;
@@ -25,7 +25,13 @@ body{
     
 }
 .cardtop h1{
+    color: white;
     font-size: 40px;
+}
+.cardtop h2{
+    color: white;
+    text-decoration: overline 2px;
+    margin-top: 20px;;
 }
 .plussymbol{
     font-size: 40px;
@@ -48,32 +54,39 @@ body{
     
 }
 .userip{
+    margin-top: 2px;
     width:90%;
-    height: 65px;
-    border-radius: 30px;
-    font-size: 27px;
+    height: 40px;
+    border-radius:20px;
+    font-size: 25px;
     font-weight: lighter;
-    font-family: 'Hanalei Fill', cursive;
+    font-family: 'Lato', sans-serif;
     background-color: #ece7e7;
+    padding: 4px;
     color: #000;
     border: none;
     -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
-    padding-right: 20px;
+    padding-right: 5px;
     
 }
+
+    input:hover{
+        background-color: lightgray ;
+    }
 ul{
     list-style-type: none;
     background-color: #fff;
-    
 }
+
 ul li{
-    text-align: left;
-    
-   
+
+    text-align: left;  
 }
 .cardtop{
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 9px black;
     
 }
 .cardcont{
@@ -88,7 +101,7 @@ ul li{
     padding-left: 0px;
 }
 .cardelements :hover i{
-    color: #9c387e;
+    color: #0a9396;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 .cardelements{
@@ -99,11 +112,11 @@ ul li{
     padding-right: 100px;
 }
 .plussymbol:hover i{
-    color: #9c387e;
+    color: red;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 .refresh:hover i{
-    color: #9c387e;
+    color: #ff3300;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     
 }
