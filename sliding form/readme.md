@@ -1,7 +1,8 @@
 # SLIDING SIGNIN / SIGNUP PAGE
 
 
-![Screenshot (715)](https://user-images.githubusercontent.com/54171759/117698018-d2a8ca80-b1e0-11eb-8576-836294a79d6a.png)
+![Screenshot (715)](https://user-images.githubusercontent.com/54171759/137533132-9a8ef418-0540-4f04-9f4f-190b3ce8801e.png)
+
 
 # Particulars
 ```
