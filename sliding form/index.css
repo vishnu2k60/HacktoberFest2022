@@ -99,6 +99,10 @@ input {
 	max-width: 100%;
 	min-height: 480px;
 }
+.social:hover{
+	background-color:black;
+	color:yellow;
+}
 
 .form-container {
 	position: absolute;
@@ -224,7 +228,9 @@ input {
 	height: 40px;
 	width: 40px;
 }
-
+.ghost:hover{
+	transform:scale(2x);
+}
 footer {
     background-color: #222;
     color: #fff;
