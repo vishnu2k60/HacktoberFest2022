@@ -12,6 +12,13 @@
 Language: javascript, html, css
 ```
 
+# Library used
+
+```
+PDF.js
+
+```
+
 ### Where the Viewer Works
 
 The page works simple by clicking on the  file and the pdf file is launched in default browser.
