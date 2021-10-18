@@ -9,7 +9,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <style>
+      *{
+        font-family: 'Poppins', sans-serif;
+      }
       body {
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
@@ -34,6 +40,9 @@
         line-height: 33px;
         padding-bottom: 2%;
       }
+      .fa:hover{
+        color:hsla(175, 80%, 60%, 1)
+      }
       @media screen and (max-width: 426px) {
         h1,
         .subtext {
@@ -43,6 +52,7 @@
       a {
         color: aliceblue;
         text-decoration-style: dotted;
+        
       }
       .user-input {
         display: flex;
@@ -53,7 +63,7 @@
       input[type="text"] {
         padding: 10px;
 
-        border-width: 1.5px;
+        border-width: 0.5px;
         border-radius: 7px;
         border-color: white;
         background-color: transparent;
@@ -78,10 +88,10 @@
           hsla(153, 60%, 52%, 1) 100%
         );
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#47EBDE", endColorstr="#3CCF8D", GradientType=1 );
-        padding: 10px;
+        padding: 9px 20px;
         border-radius: 10px;
         border: none;
-
+        transition:  all 0.5s ease-in-out;
         color: white;
       }
       button:hover {
@@ -90,9 +100,9 @@
           hsla(153, 60%, 52%, 1) 2%,
           hsla(175, 80%, 60%, 1) 100%
         );
-
-        text-decoration: underline;
         cursor: pointer;
+        text-decoration: none;
+
       }
 
       #demo {
@@ -178,8 +188,8 @@
 
     <div class="subtext">
       <p>
-        A simple landing page created using <a href="#">HTML5</a>,
-        <a href="#">CSS3</a> and <a href="#">JavaScript.</a>
+        A simple landing page created using <a href="#"> HTML5 </a>,
+        <a href="#">CSS3 </a> and <a href="#"> JavaScript</a>
       </p>
     </div>
 
@@ -199,7 +209,7 @@
       <a href="#" class="fa fa-instagram"></a>
       <a href="#" class="fa fa-github"></a>
       <a href="#" class="fa fa-google"></a>
-      <p>&copy; Untitled. | creator: wasp</p>
+      <p>&copy; All rights reserved 2021. | creator: wasp</p>
     </footer>
   </body>
 </html>
