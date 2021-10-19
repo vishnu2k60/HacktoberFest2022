@@ -24,6 +24,15 @@ body{
     box-shadow:6px 6px 10px 0px rgb(255 0 0 / 20%), -6px -6px 10px 0px rgb(255 0 0 / 19%)
 
 }
+.input{
+	background-color: #080808;
+	padding: 30px 25px;
+	border-radius: 8px;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+	margin-bottom: 50px;
+
+
+}
 #result{
     height: 100px;
     text-align: right;
