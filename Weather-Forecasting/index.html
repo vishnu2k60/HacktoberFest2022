@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/earth.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container-fluid px-1 px-sm-3 py-5 mx-auto">
+      <div class="row d-flex justify-content-center">
+        <div class="row card0">
+          <div class="card1 col-lg-8 col-md-7">
+            <small>
+              <img src="./assets/images/earth.svg" width="25px"  alt="" srcset="" />
+              Vj.weather</small
+            >
+            <div class="text-center">
+              <img
+                class="image mt-5"
+                src="./assets/background-image/background.png"
+              />
+            </div>
+            <div class="weather-info">
+              <!-- <div>
+                <div class="row px-3 mt-3 mb-3">
+                  <h1 class="large-font mr-3">26&#176;</h1>
+                  <div class="d-flex flex-column mr-3">
+                    <h2 class="mt-3 mb-0">London</h2>
+                    <small>10:36 - Tuesday, 22 Oct '19</small>
+                  </div>
+                  <div class="d-flex flex-column text-center">
+                    <img src="/assets/images/Clouds.svg" width="55px" alt="">
+                    <small>Sunny</small>
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div>
+                <img
+                  src="/assets/images/error.svg"
+                  alt=""
+                  width="80px"
+                  srcset=""
+                />
+                <h1>${data.message}</h1>
+              </div> -->
+            </div>
+          </div>
+          <div class="card2 col-lg-4 col-md-5">
+            <div class="row px-3 mt-3 mb-4">
+              <form class="input w-100 d-flex align-items-baseline">
+                <input
+                  type="text"
+                  name="location"
+                  placeholder="Enter a location"
+                  class="input-location"
+                />
+                <button
+                  class="btn btn-outline-light mr-2 ml-2"
+                  type="button"
+                  id="input-submit"
+                >
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </form>
+            </div>
+            <div class="mr-5 suggestion">
+              <p class="light-text">Chennai</p>
+              <p class="light-text">Kolkata</p>
+              <p class="light-text">Mumbai</p>
+              <p class="light-text">Bangalore</p>
+              <div class="line my-5"></div>
+            </div>
+            <div class="mr-5">
+              <p>Weather Details</p>
+              <div class="weather-details">
+                <!-- <div class="row px-3">
+                  <p class="light-text">Cloudy</p>
+                  <p class="ml-auto">12%</p>
+                </div>
+                <div class="row px-3">
+                  <p class="light-text">Humidity</p>
+                  <p class="ml-auto">78%</p>
+                </div>
+                <div class="row px-3">
+                  <p class="light-text">Wind</p>
+                  <p class="ml-auto">1km/h</p>
+                </div>
+                <div class="row px-3">
+                  <p class="light-text">Rain</p>
+                  <p class="ml-auto">0mm</p>
+                </div> -->
+              </div>
+              <div class="line mt-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- External Javascript -->
+    <script src="app.js"></script>
+
+    <!-- Icons Script -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
