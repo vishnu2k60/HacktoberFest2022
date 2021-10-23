@@ -73,9 +73,12 @@ body{
     pointer-events: auto;
 }
 .number:hover , .operator:hover{
-    font-size:15px;
+    font-size:20px;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.521);
+    color:white;
 }
+
 .number:active , .operator:active{
     font-size:25px;
     font-weight: bold;
