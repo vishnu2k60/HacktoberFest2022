@@ -1,4 +1,3 @@
-//Learnprogramo
 //---------------------------rail way reservation project by using c programming language--------------------------
 //---------------------------------------header file start-----------------------------------------
 #include<stdio.h>
