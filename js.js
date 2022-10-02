@@ -5,6 +5,7 @@ canvas.height=window.innerHeight;
 
 var c=canvas.getContext('2d');
 
+// canvas
 
 var mouse={
     x:undefined,
