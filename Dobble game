@@ -1,0 +1,47 @@
+#Dobble game
+import string
+
+symbols=[]
+symbols=list(string.ascii_letters)
+
+
+import random
+card1=[0]*5
+card2=[0]*5
+
+import random
+p1=random.randint(0,4)
+p2=random.randint(0,4)
+
+
+commonsymbol = random.choice(symbols)
+symbols.remove(commonsymbol)
+
+if p1==p2:
+  card2[p1]=commonsymbol
+  card1[p1]=commonsymbol
+else:
+  card1[p1]=commonsymbol
+  card2[p2]=commonsymbol
+  card1[p2]=random.choice(symbols)
+  symbols.remove(card1[p2])
+  card2[p1]=random.choice(symbols)
+  symbols.remove(card2[p1])
+
+for i in range(5):
+  if i!=p1 and i!=p2:
+    sym1= random.choice(symbols)
+    symbols.remove(sym1)
+    sym2= random.choice(symbols)
+    symbols.remove(sym2)
+    card1[i]= sym1
+    card2[i]= sym2
+print(card1)
+print(card2)
+
+ch= input()
+if ch== commonsymbol:
+  print("Identified")
+else:
+  print("TryAgain")
+
